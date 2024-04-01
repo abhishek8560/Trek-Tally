@@ -1,0 +1,52 @@
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(225, 65, 25, 0.727);
+
+  height: 10%;
+}
+.inputContainer > * {
+  font-size: 1.5rem;
+}
+.inputContainer > span {
+  font-weight: 900;
+  margin-right: 2%;
+}
+.inputContainer > input,
+.inputContainer > select,
+.inputContainer > button {
+  padding: 0.5%;
+  margin-right: 0.5%;
+  border-radius: 2rem;
+  border: none;
+}
+.inputContainer > input {
+  width: 15%;
+  padding-left: 2%;
+}
+.inputContainer > input:focus {
+  outline: none;
+}
+.inputContainer > select {
+  width: 5%;
+  padding-left: 1.5%;
+}
+.inputContainer > select:focus {
+  outline: none;
+}
+.inputContainer > section > * {
+  text-align: center;
+}
+.inputContainer > button {
+  background-color: aquamarine;
+  width: 5%;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 10%;
+  padding: 0.65%;
+}
+.inputContainer > button:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
